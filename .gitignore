@@ -88,3 +88,7 @@ sync.sh
 /phpunit.xml
 .phpunit.result.cache
 ###< phpunit/phpunit ###
+
+public/assets/vendor/
+public/assets/global/
+public/assets/global/*
