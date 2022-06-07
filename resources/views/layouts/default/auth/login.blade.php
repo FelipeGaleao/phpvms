@@ -7,7 +7,7 @@
       {{ Form::open(['url' => url('/login'), 'method' => 'post', 'class' => 'form']) }}
       <div class="header header-primary text-center">
         <div class="logo-container" style="width: 320px;">
-          <img src="https://www.voeazul.com.br/en/img/1466430298038-azul-logo-color.svg" width="320" height="320"
+          <img src="{{ public_asset('/assets/frontend/img/logo.svg') }}" width="320" height="320"
                style="background: #FFF">
         </div>
       </div>
@@ -70,4 +70,5 @@
       </div>
       {{ Form::close() }}
     </div>
-  </div
+  </div>
+@endsection

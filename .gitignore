@@ -9,6 +9,10 @@ composer.phar
 yarn-error.log
 *.bak
 
+public/assets/vendor
+public/assets/global
+public/assets/global
+
 # Laravel 4 specific
 bootstrap/compiled.php
 app/storage/
@@ -89,6 +93,3 @@ sync.sh
 .phpunit.result.cache
 ###< phpunit/phpunit ###
 
-public/assets/vendor/*
-public/assets/global/*
-public/assets/global/*
